@@ -176,6 +176,7 @@ nav {
 
 .menu {
     display: flex;
+    align-items: center;
 }
 
 .menu li {
