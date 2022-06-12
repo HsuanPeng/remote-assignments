@@ -3,187 +3,276 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*=========以上是CSS reset=========*/
 
-*{
+* {
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
 
-.wrap{
-    margin:0 auto;
-    max-width: 1200px;
+.wrap {
+    margin: 0 auto;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     background: #edede9;
 }
 
-.title{
+.title {
     display: flex;
     align-items: center;
 }
 
-.title h1{
+.title h1 {
     display: inline-block;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 1.2px;
 }
 
-.title img{
+.title img {
     width: 10%;
     margin-left: 10px;
 }
 
-.menu{
-    display:flex;
+.menu {
+    display: flex;
 }
 
-.menu li{
+.menu li {
     width: 90px;
     margin: 10px 0px;
 }
 
-.menu li a{
+.menu li a {
     padding: 10px;
     text-decoration: none;
     color: #000;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     border-bottom: 1px solid #000;
 }
 
-.showmenu{
+.showmenu {
     display: none;
 }
 
-.welcome{
-    background: #f5f3f4;
+.welcome {
+    background: #e0e0e0;
 }
 
-.welcome h2{
+.welcome h2 {
     text-align: center;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 30px;
     padding: 20px 0px;
 }
 
-.welcome p{
+.welcome p {
     text-align: center;
     padding: 10px;
     line-height: 20px;
 }
 
-.content{
+.content {
     background: #f5f3f4;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.content h2{
+.content h2 {
     text-align: center;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 30px;
     padding-top: 30px;
 }
 
-.content-list{
+.content-list {
     display: flex;
     flex-wrap: wrap;
-justify-content: center;
+    justify-content: center;
 }
 
-.content-list li{
+.content-list li {
     width: 40%;
     margin: 2%;
 }
 
-.content-list p{
+.content-list p {
     text-align: center;
     padding: 13px;
 }
 
-.content-list img{
-    transition:0.5s;
+.content-list img {
+    transition: 0.5s;
 }
 
-.content-list img:hover{
+.content-list img:hover {
     transform: scale(1.05);
 }
 
-footer button{
-    margin:0 auto;
-    display:block;
+footer button {
+    margin: 0 auto;
+    display: block;
     padding: 5px;
     background: #f5f3f4;
     margin-top: 10px;
 }
 
 @media(max-width:800px) {
-    .showmenu{
-        display:block;
+    .showmenu {
+        display: block;
         width: 25%;
         margin-right: 5px;
     }
-    .menu{
+
+    .menu {
         display: none;
     }
 }
 
-@media(max-width:500px){
-    .content-list li{
+@media(max-width:500px) {
+    .content-list li {
         width: 95%;
         margin: 2%;
     }
