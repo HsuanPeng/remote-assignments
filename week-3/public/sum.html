@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <label>請輸入數字</label>
-    <input type="text" id="content">
+    <input type="text" id="content" />
     <button type="submit" id="send">送出</button>
     <p>回傳結果：<span id="result"></span></p>
-</body>
-<script>
-const send = document.getElementById('send');
-const content = document.getElementById('content');
-const result = document.getElementById('result');
+  </body>
+  <script>
+    const send = document.getElementById('send');
+    const content = document.getElementById('content');
+    const result = document.getElementById('result');
 
-send.addEventListener('click',function(){
-  const value = content.value;
-  console.log(value);
-  fetch(`http://localhost:3000/getData?number=${value}`)
-  .then((response) => {
-        return response.text();
-    })
-    .then( (response) => {
-        result.textContent=response;
-    })
-    .catch((error) => {
-        console.log(`Error: ${error}`);
-    })
- });
-
-
-</script>
+    send.addEventListener('click', function () {
+      const value = content.value;
+      console.log(value);
+      fetch(`http://localhost:3000/getData?number=${value}`)
+        .then((response) => {
+          return response.text();
+        })
+        .then((response) => {
+          result.textContent = response;
+        })
+        .catch((error) => {
+          console.log(`Error: ${error}`);
+        });
+    });
+  </script>
 </html>
