@@ -19,7 +19,7 @@ function Header() {
           <a href="#">預約試駕</a>
         </li>
         <li>
-          <a href="#">購車資訊111</a>
+          <a href="#">購車資訊</a>
         </li>
         <li>
           <a href="#">車主專區</a>
