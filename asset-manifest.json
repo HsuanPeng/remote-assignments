@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/remote-assignments/week-4/Assignment%203/my-app/static/css/main.79840350.css",
-    "main.js": "/remote-assignments/week-4/Assignment%203/my-app/static/js/main.666b9ab4.js",
-    "static/js/787.28cb0dcd.chunk.js": "/remote-assignments/week-4/Assignment%203/my-app/static/js/787.28cb0dcd.chunk.js",
-    "static/media/XC40.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/XC40.8bb6bc77e2db1ce29f4a.jpeg",
-    "static/media/XC60.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/XC60.624d99fa6cd6fdb73ed8.jpeg",
-    "static/media/Volvo Logo.png": "/remote-assignments/week-4/Assignment%203/my-app/static/media/Volvo Logo.8e9b76a162e43bed24e9.png",
-    "static/media/xc60-recharge-gallery-4-16x9.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/xc60-recharge-gallery-4-16x9.04e553650e30bfc4ed2c.jpeg",
-    "static/media/S60.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/S60.e1b0333ecb9b3f9ebd59.jpeg",
-    "static/media/XC90.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/XC90.c5c61aebbc9f50393dda.jpeg",
-    "static/media/xc60-recharge-gallery-3-16x9.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/xc60-recharge-gallery-3-16x9.531b2bb193edf7b9f3e6.jpeg",
-    "static/media/xc60-recharge-gallery-1-16x9.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/xc60-recharge-gallery-1-16x9.10f7b178828c75f1c186.jpeg",
-    "static/media/xc60-recharge-gallery-5-16x9.jpeg": "/remote-assignments/week-4/Assignment%203/my-app/static/media/xc60-recharge-gallery-5-16x9.fc7212e18d0a68e2c24b.jpeg",
-    "index.html": "/remote-assignments/week-4/Assignment%203/my-app/index.html",
-    "main.79840350.css.map": "/remote-assignments/week-4/Assignment%203/my-app/static/css/main.79840350.css.map",
-    "main.666b9ab4.js.map": "/remote-assignments/week-4/Assignment%203/my-app/static/js/main.666b9ab4.js.map",
-    "787.28cb0dcd.chunk.js.map": "/remote-assignments/week-4/Assignment%203/my-app/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/remote-assignments/static/css/main.79840350.css",
+    "main.js": "/remote-assignments/static/js/main.8d31df97.js",
+    "static/js/787.28cb0dcd.chunk.js": "/remote-assignments/static/js/787.28cb0dcd.chunk.js",
+    "static/media/XC40.jpeg": "/remote-assignments/static/media/XC40.8bb6bc77e2db1ce29f4a.jpeg",
+    "static/media/XC60.jpeg": "/remote-assignments/static/media/XC60.624d99fa6cd6fdb73ed8.jpeg",
+    "static/media/Volvo Logo.png": "/remote-assignments/static/media/Volvo Logo.8e9b76a162e43bed24e9.png",
+    "static/media/xc60-recharge-gallery-4-16x9.jpeg": "/remote-assignments/static/media/xc60-recharge-gallery-4-16x9.04e553650e30bfc4ed2c.jpeg",
+    "static/media/S60.jpeg": "/remote-assignments/static/media/S60.e1b0333ecb9b3f9ebd59.jpeg",
+    "static/media/XC90.jpeg": "/remote-assignments/static/media/XC90.c5c61aebbc9f50393dda.jpeg",
+    "static/media/xc60-recharge-gallery-3-16x9.jpeg": "/remote-assignments/static/media/xc60-recharge-gallery-3-16x9.531b2bb193edf7b9f3e6.jpeg",
+    "static/media/xc60-recharge-gallery-1-16x9.jpeg": "/remote-assignments/static/media/xc60-recharge-gallery-1-16x9.10f7b178828c75f1c186.jpeg",
+    "static/media/xc60-recharge-gallery-5-16x9.jpeg": "/remote-assignments/static/media/xc60-recharge-gallery-5-16x9.fc7212e18d0a68e2c24b.jpeg",
+    "index.html": "/remote-assignments/index.html",
+    "main.79840350.css.map": "/remote-assignments/static/css/main.79840350.css.map",
+    "main.8d31df97.js.map": "/remote-assignments/static/js/main.8d31df97.js.map",
+    "787.28cb0dcd.chunk.js.map": "/remote-assignments/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79840350.css",
-    "static/js/main.666b9ab4.js"
+    "static/js/main.8d31df97.js"
   ]
 }
